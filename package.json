@@ -1,0 +1,37 @@
+{
+  "name": "alpine",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "swr": "^0.5.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "autoprefixer": "^10.2.5",
+    "babel-jest": "^26.5.2",
+    "eslint": "^7.8.1",
+    "eslint-config-baconjuice": "^1.0.3",
+    "jest": "^26.5.3",
+    "postcss": "^8.2.2",
+    "tailwindcss": "^2.0.2"
+  },
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "next/babel"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "baconjuice"
+  }
+}
