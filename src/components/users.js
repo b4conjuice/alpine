@@ -9,7 +9,7 @@ const Users = () => {
       {users?.map(user => (
         <li key={user.id}>
           <Link href={`/users/${user.id}`}>
-            <a className="text-blue-500 hover:text-blue-400 hover:underline">
+            <a className="text-blue-700 hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-400 hover:underline">
               {user.name}
             </a>
           </Link>

@@ -12,7 +12,7 @@ const Albums = ({ userId }) => {
       {albums?.map(album => (
         <li key={album.id}>
           <Link href={`/albums/${album.id}`}>
-            <a className="text-blue-500 hover:text-blue-400 hover:underline">
+            <a className="text-blue-700 hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-400 hover:underline">
               {album.title}
             </a>
           </Link>
