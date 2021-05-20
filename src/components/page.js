@@ -50,7 +50,7 @@ const Page = ({ title = DEFAULT_TITLE, children }) => {
         </title>
       </Head>
       <header>
-        <nav className="px-2 py-1 text-lg">
+        <nav className="px-4 py-1 text-lg">
           <ul className="flex justify-center space-x-3 md:justify-start">
             {nav.map(({ url, text }) => (
               <li
